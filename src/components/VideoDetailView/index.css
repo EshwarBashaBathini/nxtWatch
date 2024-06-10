@@ -1,0 +1,46 @@
+.v-color1 {
+  background-color: #0f0f0f;
+  height: 100vh;
+  color: #f9f9f9;
+  display: flex;
+  align-items: center;
+}
+.v-color2 {
+  background-color: #f9f9f9;
+  height: 100vh;
+  color: #0f0f0f;
+  display: flex;
+  align-items: center;
+}
+.react-player {
+  width: 100%;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+.failure-size {
+  width: 80%;
+}
+.failure-h {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #475569;
+}
+.failure-p {
+  font-size: 30px;
+  color: #64748b;
+}
+.failure-button {
+  background-color: #00306e;
+  height: 40px;
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  color: white;
+}

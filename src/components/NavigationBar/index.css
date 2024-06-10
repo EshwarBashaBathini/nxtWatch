@@ -1,0 +1,75 @@
+.bgColor1 {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  padding: 10px;
+  align-items: center;
+  height: 100vh;
+  justify-content: space-between;
+}
+.bgColor2 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-between;
+}
+.colorn1 {
+  color: #64748b;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.icon-color1 {
+  color: #64748b;
+  font-size: 20px;
+  font-weight: bold;
+}
+.link {
+  text-decoration: none;
+}
+.icon-container {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.contact {
+  color: #1e293b;
+  font-size: 20px;
+}
+.between {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+.social-size {
+  width: 30px;
+  padding: 5px;
+}
+
+@media screen and (max-width: 766px) {
+  .bgColor1 {
+    display: none;
+  }
+  .bgColor2 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .bgColor1 {
+    display: block;
+  }
+  .bgColor1 {
+    display: flex;
+  }
+  .bgColor2 {
+    display: block;
+  }
+}

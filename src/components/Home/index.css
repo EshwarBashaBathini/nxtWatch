@@ -1,0 +1,89 @@
+.bottom-side {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+.banner {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png');
+  background-size: cover;
+  height: 20vh;
+  width: 100%;
+  padding: 20px;
+}
+.width {
+  width: 120%;
+}
+.banner-logo {
+  width: 10%;
+}
+.button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.cross-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ul-items1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px !important;
+  overflow-y: auto;
+  height: 80vh;
+}
+
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 50vh;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+.failure-size {
+  width: 80%;
+}
+.failure-h {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #475569;
+}
+.failure-p {
+  font-size: 30px;
+  color: #64748b;
+}
+.failure-button {
+  background-color: #00306e;
+  height: 40px;
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  color: white;
+}
+.back-color1 {
+  background-color: #0f0f0f;
+  min-height: 70vh;
+  color: #f9f9f9;
+  display: flex;
+  align-items: center;
+}
+.back-color2 {
+  background-color: #f9f9f9;
+  min-height: 70vh;
+  color: #0f0f0f;
+  display: flex;
+  align-items: center;
+}
