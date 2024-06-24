@@ -26,7 +26,7 @@ import {
 const Header = props => (
   <ThemeAndVideoContext.Consumer>
     {value => {
-      const {isDarkTheme, toggleTheme} = value
+      const {isDarkTheme, toggleTheme, changeTab} = value
       const color = isDarkTheme ? '#ffffff' : '#00306e'
       const bgColor = isDarkTheme ? '#231f20' : '#f1f5f9'
 
@@ -39,11 +39,15 @@ const Header = props => (
         Cookies.remove('jwt_token')
         history.replace('/login')
       }
+      const onClickTabHome = () => {
+        changeTab('Home')
+      }
 
       return (
         <NavbarHeader bgColor={bgColor}>
           <LogoLink to="/">
             <HeaderLogo
+              onClick={onClickTabHome}
               src={
                 isDarkTheme
                   ? 'https://assets.ccbp.in/frontend/react-js/nxt-watch-logo-dark-theme-img.png'

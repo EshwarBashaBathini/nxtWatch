@@ -30,7 +30,7 @@ class NavigationBar extends Component {
         const {isDarkTheme, activeTab, changeTab} = value
         const bgColor = isDarkTheme ? '#231f20' : '#f1f5f9'
         const textColor = isDarkTheme ? '#f9f9f9' : '#231f20'
-        const activeTabBg = isDarkTheme ? '#475569' : '#cbd5e1'
+        const activeTabBg = isDarkTheme ? '#0f0f0f' : '#cbd5e1'
 
         const onClickTabHome = () => {
           changeTab('Home')
@@ -66,6 +66,7 @@ class NavigationBar extends Component {
                 <NavLink to="/trending">
                   <NavLinkContainer
                     key="trending"
+                    data-testid="trending"
                     bgColor={activeTab === 'Trending' ? activeTabBg : 'none'}
                     onClick={onClickTabTrending}
                   >
